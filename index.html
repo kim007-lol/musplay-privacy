@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy for MusPlay</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0b0e14; color: #e6e9ef; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.65; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 1.9rem; margin-bottom: 4px; }
+  h2 { font-size: 1.25rem; margin-top: 36px; color: #ffd479; }
+  h3 { font-size: 1.05rem; margin-top: 24px; }
+  .updated { color: #9aa3b2; font-size: 0.95rem; }
+  a { color: #7cc4ff; }
+  hr { border: none; border-top: 1px solid #232936; margin: 28px 0; }
+  code { background: #161b26; padding: 1px 6px; border-radius: 6px; font-size: 0.92em; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy for MusPlay</h1>
+<p class="updated"><em>Last updated: October 17, 2026</em></p>
+<p>MusPlay ("we", "our", or "the application") is committed to protecting your privacy. This Privacy Policy describes how MusPlay handles information when you use our mobile application.</p>
+<hr>
+<h2>1. Overview</h2>
+<p>MusPlay is designed as a privacy-friendly audio and music player application. We do not require account registration, do not collect personal identifying information (PII), and do not sell, rent, or monetize your data.</p>
+<hr>
+<h2>2. Permissions &amp; Data Usage</h2>
+<h3>2.1 Audio Recording (<code>RECORD_AUDIO</code>)</h3>
+<ul>
+<li><strong>Purpose</strong>: MusPlay requests access to the microphone / audio recording interface strictly to power the in-app real-time audio visualizer and equalizer processing.</li>
+<li><strong>Data Handling</strong>: Audio data is processed <strong>ephemerally and exclusively on your device in volatile memory (RAM)</strong>.</li>
+<li><strong>No Recording or Transmission</strong>: MusPlay <strong>does not record</strong>, <strong>does not save to disk</strong>, and <strong>does not transmit</strong> any microphone or audio data to external servers or third parties.</li>
+</ul>
+<h3>2.2 Storage &amp; Media Files (<code>READ_MEDIA_AUDIO</code> / Storage)</h3>
+<ul>
+<li><strong>Purpose</strong>: To allow you to browse and play audio files stored locally on your device.</li>
+<li><strong>Data Handling</strong>: Scanned metadata (such as track titles, artists, and album names) is stored exclusively in a local SQLite database on your device. It is never uploaded to any remote server.</li>
+</ul>
+<h3>2.3 Network Communication (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>)</h3>
+<ul>
+<li><strong>Purpose</strong>: To stream online audio, download lyrics, fetch album artwork, and support optional features such as Last.fm scrobbling and cloud synchronization.</li>
+<li><strong>Data Handling</strong>: Network requests are sent only to service providers necessary to retrieve the requested media. We do not track your browsing habits or share your listening history with advertisers.</li>
+</ul>
+<h3>2.4 Bluetooth &amp; Notifications (<code>BLUETOOTH_CONNECT</code>, <code>POST_NOTIFICATIONS</code>)</h3>
+<ul>
+<li><strong>Purpose</strong>: To show playback controls in the system notification drawer, integrate with lock screen media sessions, and auto-detect Bluetooth audio endpoints.</li>
+<li><strong>Data Handling</strong>: Used solely for local system integration.</li>
+</ul>
+<h3>2.5 Foreground Services (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>, <code>FOREGROUND_SERVICE_DATA_SYNC</code>)</h3>
+<ul>
+<li><strong>Media playback</strong>: The media playback foreground service keeps music playing continuously in the background, including when the screen is off or you switch to another app.</li>
+<li><strong>Data sync</strong>: The data sync foreground service runs exclusively when you press the download button to save a song for offline listening (user-initiated offline playback). It is not used for background syncing at any other time.</li>
+<li><strong>Data Handling</strong>: Both services run locally on your device for playback and downloads you initiate. They do not collect or transmit personal information.</li>
+</ul>
+<hr>
+<h2>3. Third-Party Services</h2>
+<p>Depending on the features you choose to use, MusPlay may interact with the following third-party endpoints:</p>
+<ul>
+<li><strong>Last.fm</strong> (Optional): If you connect your Last.fm account, track scrobbles are submitted to Last.fm according to Last.fm's privacy policy.</li>
+<li><strong>Lyrics &amp; Metadata Providers</strong>: Used strictly to retrieve lyrics and track details for songs currently playing.</li>
+<li><strong>No Advertising or Analytics SDKs</strong>: MusPlay does not include third-party advertising SDKs (such as Google AdMob) or invasive telemetry trackers.</li>
+</ul>
+<hr>
+<h2>4. Data Retention &amp; Deletion</h2>
+<p>All application settings, listening statistics, cached playlists, and downloaded files are stored locally on your device. You can permanently delete this data at any time by:</p>
+<ol>
+<li>Clearing app data and cache via Android <strong>Settings &gt; Apps &gt; MusPlay &gt; Storage &gt; Clear Data</strong>.</li>
+<li>Uninstalling the application from your device.</li>
+</ol>
+<hr>
+<h2>5. Children's Privacy</h2>
+<p>MusPlay does not knowingly collect or solicit personal information from children under the age of 13. If you believe that a child has provided us with personal information, please contact us so we can take appropriate measures.</p>
+<hr>
+<h2>6. Changes to This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.</p>
+<hr>
+<h2>7. Contact Us</h2>
+<p>If you have any questions or suggestions regarding this Privacy Policy, please contact the maintainers via our official repository or issue tracker:</p>
+<ul>
+<li><strong>GitHub</strong>: <a href="https://github.com/kim007-lol/music-players">https://github.com/kim007-lol/music-players</a></li>
+</ul>
+</main>
+</body>
+</html>
